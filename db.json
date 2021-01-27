@@ -2,15 +2,45 @@
     "devices": [
       {
         "id": 1,
-        "name": "test"
+        "name": "ControlUnit",
+        "type":"PC",
+        "status":"Running",
+        "temp":70
       },
       {
         "id": 2,
-        "name": "test2"
+        "name": "X_axis",
+        "type":"Motor",
+        "status":"Running",
+        "temp":45
       },
       {
         "id": 3,
-        "name": "test3"
+        "name": "Y_axis",
+        "type":"Motor",
+        "status":"Stuck",
+        "temp":55
+      },
+      {
+        "id": 4,
+        "name": "Z_axis",
+        "type":"Motor",
+        "status":"Stopped",
+        "temp":40
+      },
+      {
+        "id": 5,
+        "name": "extruder",
+        "type":"heater",
+        "status":"Heating",
+        "temp":90
+      },
+      {
+        "id": 6,
+        "name": "heater bed",
+        "type":"heater",
+        "status":"Ready",
+        "temp":70
       }
     ],
     "profile": {
